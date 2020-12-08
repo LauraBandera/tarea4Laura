@@ -40,6 +40,11 @@ public class Bombon {
 	public void setForma(String forma) {
 		this.forma = forma;
 	}
+
+	@Override
+	public String toString() {
+		return "Bombon [sabor=" + sabor + ", cantidad=" + cantidad + ", forma=" + forma + "]";
+	}
 	
 	
 	
