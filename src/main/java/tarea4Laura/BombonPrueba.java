@@ -13,8 +13,10 @@ public class BombonPrueba {
 
     public static void main(String[] args) {
         Bombon chocolate = new Bombon("chocolate", 12, "cuadrada");
+        Bombon fresa = new Bombon("fresa", 6, "redondo");
         
         System.out.println(chocolate.toString());
+        System.out.println(fresa.toString());
     }
 
 }
